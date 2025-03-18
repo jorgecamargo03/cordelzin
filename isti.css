@@ -85,12 +85,13 @@ section.imagem{
     color: white;
     font-size: 1.5em;
     height: 400px;
-    
+    box-shadow: inset 10px 5px 5px 5px rgba(0, 0, 0, 0.585);
+    background-attachment: fixed;
 }
 #q1{
     background-image: url(imagens/background001.jpg);
     background-position: center center;
-    background-attachment: fixed;
+    
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -101,7 +102,7 @@ section.imagem{
 #q2{
     background-image: url(imagens/background002.jpg);
     background-position: right center;
-    background-attachment: fixed;
+   
     background-repeat: no-repeat;
     background-size: cover;
     
